@@ -3,3 +3,4 @@ def twoSum(n, t):
         for j in range(i + 1, len(n)):
             if n[j] == t - n[i]:
                 return [i, j]
+    return False
